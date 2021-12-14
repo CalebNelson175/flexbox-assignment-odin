@@ -1,0 +1,106 @@
+
+/*Primary classifications*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    width: stretch;
+    background-color: #1f2937;
+}
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+    width: auto;
+}
+main {
+    flex: 1;
+}
+/*classes*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    color: #f9faf8;
+
+}
+.header-links {
+width: auto;
+}
+.header-button {
+
+
+}
+.header-line {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.header-content {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.page-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.page-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width:max-content;
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 400px;
+    font-size: 36px ;
+    font-style: italic;
+}
+
+.page-3 {
+
+
+}
+.footer-text {
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+.rando-info {
+    
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+/*Images*/
+
+.image-3 {
+        height: 200px;
+        width: 400px;
+        align-content: flex-end;
+}
+.picture  {
+    height: 250px;
+    width: 250px;
+    border: 2px rgb(46, 46, 134);
+    border-radius: 5px;
+    margin: 10px;
+    
+}
